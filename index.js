@@ -153,6 +153,20 @@ app.post('/api/register', async (req, res) => {
       });
     }
     
+    // Also save to Google Sheets (non-blocking)
+    const sheetData = {
+      name: name.trim(),
+      email: email.trim().toLowerCase(),
+      phone: phone.trim(),
+      interest_type: interestType,
+      other_details: otherDetails ? otherDetails.trim() : '',
+      ip_address: ipAddress
+    };
+    
+    appendToGoogleSheet(sheetData).catch(err => {
+      console.error('Failed to sync to Google Sheets:', err);
+    });
+    
     // Success response
     res.json({ 
       success: true, 
