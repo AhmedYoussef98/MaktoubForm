@@ -1,0 +1,124 @@
+
+
+
+MaktoubForm
+Files
+Commands
+Search
+Packager files
+Config files
+Preview your app here
+The app is running, but has no external ports configured.
+Use
+tool to configure them.
+Private Dev URL
+Teams
+Restrict Dev URL access to authenticated editors only.
+When this option is disabled, anyone with the Dev URL can access your app preview.
+
+Dev URL:
+https://bbcffca9-3975-4656-9dfb-f94a6b1907bd-00-zlaoomt4et5t.pike.replit.dev/
+Dev URLs are temporary and will sleep after you leave the workspace.
+Ports
+Learn more
+Internal Port
+External Port
+Name
+Pid
+0.0.0.0:3000
+0.0.0.0:5000
+node
+5773
+This port config is saved in the .
+87m
+ • 
+1 hour ago
+Publish your app
+Primary URL
+You can add your own custom domain after publishing your app.
+maktoub
+.replit.app
+Available
+Published App Access
+Limit published app access to team members. Learn more
+
+
+Public
+
+Private
+Configure how your production database is created and populated when you publish. Production databases help protect your live data while you continue building. Learn more
+
+Create production database upon publishing
+Advanced settings
+Manually configure machine settings, secrets, build commands, ports, and more.
+Deployment type
+Technology used to publish your app. Learn more
+
+Autoscale
+Automatically scales from zero to any level of demand.
+Machine configuration
+The power of the servers running your app
+4 vCPUs / 8 GiB RAM / 3 max
+Per machine:
+$1.014/hour
+At max traffic:
+$3.041/hour
+Build command
+Optional
+Compiles your app before it deploys
+Run command
+Starts your app after it deploys
+node index.js
+Pre-publishing security scan
+Before publishing your app, run a security scan powered by our partner Semgrep to identify potential vulnerabilities. Learn more
+
+What does publishing do?
+Commit
+Update Supabase configuration to use new API key and port
+Change Supabase API key from SUPABASE_ANON_KEY to SUPABASE_KEY and update the server port from 3000 to 5000 in index.js.
+
+SU
+
+Superpowerss
+Superpowerss
+committed
+4 hours ago
+1 parent 
+Filter changed files
+Showing 4 changed files.
+
+
+Unified
+
+Split
+.replit
+Modified
+generated-icon.png
+Added
+index.js
+Modified
+package-lock.json
+Added
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scroll to latest
+
+Make, test, iterate…
+
+Build
